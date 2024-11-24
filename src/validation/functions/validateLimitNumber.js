@@ -7,7 +7,7 @@ const validateLimitNumber = (value) => {
   const validatedValue = possibleMonth.some(
     (month) => month === inputArray[0]);
   if(!validatedValue) 
-    throw new ERROR(ERROR_MESSAGES.INPUT_POSSIBLE_MONTH);
+    throw new Error(ERROR_MESSAGES.INPUT_POSSIBLE_MONTH);
   return true;
 };
 
