@@ -1,7 +1,7 @@
-import validateEmpty from "./functions/validateEmpty";
-import validateDays from "./functions/validateDays"
-import validateLimitNumber from "./functions/validateLimitNumber"
-import validateRegEx from "./functions/validateRegExp";
+import validateEmpty from "./functions/validateEmpty.js";
+import validateDays from "./functions/validateDays.js"
+import validateLimitNumber from "./functions/validateLimitNumber.js"
+import validateRegEx from "./functions/validateRegExp.js";
 
 const validateMonthAndDay = (value) => {
   validateEmpty(value)
